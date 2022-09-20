@@ -25,3 +25,7 @@
     opacity: 0;
     visibility: hidden;
 }
+#spin
+{
+    z-index: 99;
+}
