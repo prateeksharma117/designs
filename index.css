@@ -1,4 +1,27 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
     font-weight: 500;
+}
+.preloader-wrapper
+{
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all .4s ease;
+}
+.fade-out-animation
+{
+    opacity: 0;
+    visibility: hidden;
 }
